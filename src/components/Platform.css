@@ -1,0 +1,79 @@
+.platform-section{
+    margin-top: 70px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    /* width: 100%; */
+}
+.platform-section .left-side h2{
+    color: #000;
+    font-weight: 800;
+    font-size: 32px;
+    max-width: 500px;
+    padding-bottom: 15px;
+}
+.platform-section .right-side .image{
+    max-width: 650px;
+}
+.platform-section .right-side .image img{
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+.platform-section .left-side .monitoring{
+    display: flex;
+    flex-direction: column;
+}
+.platform-section .left-side .monitoring a{
+    color: #444;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    width: 200px;
+    transition: all 0.3s ease;
+}
+.platform-section .left-side .monitoring a:hover{
+ color: rgb(37, 134, 37);
+}
+
+@media(max-width:991px){
+    .platform-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .platform-section .left-side h2{
+        font-size: 22px;
+    }
+}
+
+@media(max-width:768px){
+    .platform-section .left-side{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .platform-section .right-side{
+        padding-top: 40px;
+    }
+    .platform-section .left-side h2{
+        font-size: 18px;
+    }
+    .platform-section .right-side .image{
+        width: 380px;
+        margin: 0 auto;
+    }
+}
+@media(max-width:576px){
+    .platform-section .left-side{
+        padding-left: 40px;
+    }
+    .platform-section .right-side .image{
+        width: 300px;
+    }
+}

@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&display=swap');
+
+.pricing-section{
+    background:  url(./pricing.jpg) no-repeat;
+    height: 90vh;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 220px;
+}
+.pricing-section .pricing h5{
+    color: #11c0da;
+    font-size: 22px;
+    font-weight: 600;
+}
+.pricing-section .pricing h2{
+    color: #fff;
+    font-size: 42px;
+    font-weight: 800;
+    max-width: 450px;
+    padding-bottom: 7px;
+ 
+}
+.pricing-section .pricing p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    max-width: 400px;
+}
+.users-section{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.users-section .user .cart{
+    height: 800px;
+  padding: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+border: 1px solid #eee;
+margin-left: 30px;
+display: flex;
+flex-direction: column;
+width: 350px;
+margin-top: 30px;
+transition:  all 0.3s ease;
+}
+.users-section .user .cart:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,.8) ;
+    border: none;
+}
+.users-section .user .cart-header{
+    padding-bottom: 30px;
+}
+.users-section .user .cart .cart-header h5{
+    font-size: 34px;
+    color: #1b1d21;
+    font-weight: 700;
+    overflow: hidden;
+}
+.users-section .user .cart-header p{
+    font-size: 24px;
+    color: #1b1d21;
+}
+.users-section .user .cart .cart-center .ox{
+    color: #fff;
+    background-color: #11c0da;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.users-section .user .cart .cart_bottom{
+    padding-top: 110px;
+}
+.users-section .user .cart-center span{
+padding-left: 7px;
+    color: #555;
+    
+    font-size: 18px;
+}
+.users-section .user .cart .cart_bottom button{
+    width: 220px;
+}
+.users-section .user .middle{
+    margin-bottom: -80px;
+}
+.users-section .user .third{
+    margin-bottom: -56px;
+}
+.plan-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./earphone.jpg) no-repeat;
+    height: 20vh;
+    width: 1200px;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.plan-section .plan h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.plan-section .plan .plans {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.plan-section .plan .plan-bottom h6{
+    color: #fff;
+    font-weight: 600;
+}
+.plan-section .plan .plans .plan-bottom-center{
+    padding-left: 40px;
+}
+.plan-section .plan .plans .plan-bottom-center .icon{
+    font-size: 32px;
+    color: #fff;
+}
+.plan-section .plan .plans .plan-bottom-center span{
+    color: #fff;
+    font-weight: 500;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.custom-section{
+    background-color: #EEFAFB;
+    flex-direction: column;
+    height: 270px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.custom-section .custom h2{
+    color: #1b1d21;
+    font-size: 36px;
+    padding-top: 20px;
+    font-weight: 600;
+    font-family: "Montserrat", Sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+.custom-section .project-section .project{
+    padding-left: 30px;
+    overflow: hidden;
+}
+
+.custom-section .project-section .project .image{
+    width: 140px;
+}
+.custom-section .project-section .project .image img{
+    width: 100%;
+}
+@media(max-width:991px){
+    .plan-section{
+       width: 100%;
+       display: flex;
+       align-items: center;
+       padding-left: 10px;
+    }
+    .plan-section .plan{
+        padding-top: 15px;
+    }
+    .plan-section .plan h2{
+        font-size: 18px;
+    }
+    .plan-section .plan .plans .plan-bottom-center span{
+        font-size: 16px;
+    }
+    .plan-section .plan .plans .plan-bottom h6{
+        font-size: 16px;
+    }
+    .custom-section .custom h2{
+        font-size: 24px;
+    }
+    .custom-section{
+        height: 320px;
+    }
+    .custom-section  .project-section .project{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+}
+
+
+@media(max-width:768px){
+    .pricing-section{
+        padding-left: 30px;
+    }
+    .pricing-section .pricing h2{
+        font-size: 25px;
+    }
+    .pricing-section .pricing p{
+        font-size: 14px;
+    }
+    .plan-section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        height: 23vh;
+    }
+    .plan-section .plan .plans{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .plan-section .plan .plans .plan-bottom-center span, .icon{
+        font-size: 14px;
+    }
+    .plan-section .plan .plans .plan-bottom h6{
+        font-size: 14px;
+    }
+    .plan-section .plan .plans .plan-bottom-center {
+        padding-top: 10px;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        margin-left: 85px;
+    }
+    .users-section .user{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .users-section .user .cart{
+      
+        width: 300px;
+    }
+    .custom-section{
+        height: 480px;
+    }
+    .custom-section .custom h2{
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    .custom-section .project-section{
+        padding-bottom: 30px;
+    }
+    .custom-section .project-section .project{
+    margin-top: 10px;
+    }
+    .custom-section .project-section .project .image{
+        width: 120px;
+    }
+}
+
+@media(max-width:576px){
+    .plan-section .plan h2{
+        font-size: 15px;
+    }
+    .plan-section{
+        height: 25vh;
+    }
+    .plan-section .plan .plans .plan-bottom-center{
+        margin-left: 45px;
+    }
+    .users-section .user .cart{
+        margin-left: 0;
+    }
+}

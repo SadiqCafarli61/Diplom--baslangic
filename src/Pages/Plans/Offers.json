@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "cartImage": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1691220022/1_enuvaf.png",
+        "cartTitle": "Customer profiling"
+    },
+    {
+        "id": 2,
+        "cartImage": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1691220022/2_cyb9xr.png",
+        "cartTitle": "Deep Analytics"
+    },
+    {
+        "id": 3,
+        "cartImage": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1691220022/3_rkpchr.png",
+        "cartTitle": "Real Time Messages"
+    },
+    {
+        "id": 4,
+        "cartImage": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1691220022/4_xov6f3.png",
+        "cartTitle": "Mobile App"
+    },
+    {
+        "id": 5,
+        "cartImage": "https://res.cloudinary.com/dgmkqlvme/image/upload/v1691220022/5_oovkeb.png",
+        "cartTitle": "Social Publishing"
+    }
+]

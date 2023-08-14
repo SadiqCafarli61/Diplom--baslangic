@@ -1,0 +1,111 @@
+.Quiz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.Menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(48, 177, 177);
+    border-radius: 7px;
+    cursor: pointer;
+    height: 500px;
+    width: 400px;
+}
+.Menu button{
+    border: 0;
+    cursor: pointer;
+    width: 300px;
+    height: 50px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: rgb(48, 177, 177);
+    height: 500px;
+    width: 400px;
+    text-align: center;
+}
+.game .questions{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.game .questions button{
+    width: 300px;
+    border: 0;
+    height: 50px;
+    margin: 5px;
+    color: #222;
+    font-size: 18px;
+    transition: all 0.5s ease;
+}
+.quizImg{
+    width: 250px;
+    margin-bottom: 40px;
+    height: auto;
+}
+.game .questions button:hover{
+    background-color: #222;
+    color: #fff;
+}
+.game .next{
+    width: 150px;
+    border: 0;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.4s ease;
+    border-radius: 7px;
+    transition: 0.4s ease;
+}
+.game .next:hover{
+    background-color: #222;
+    color: #fff;
+}
+.lastPart{
+    width: 150px;
+    border: 0;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.4s ease;
+    border-radius: 7px;
+    transition: 0.4s ease;
+}
+.lastPart:hover{
+    background-color: #222;
+    color: #fff;
+}
+.restart{
+    width: 150px;
+    border: none;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+.restart:hover{
+    background-color: #222;
+    color: #fff;
+}
+.endscreen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    width: 400px;
+    background-color: rgb(48, 177, 177);
+}

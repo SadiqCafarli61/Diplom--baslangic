@@ -1,0 +1,51 @@
+.request-section{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background-image: url(../assets//home/Products/demo.jpg);
+    height: 350px;
+    padding-bottom: 20px;
+    width: 1200px;
+    /* text-align: center; */
+    background-size: cover;
+    background-position: center;
+    padding: 55px 65px 50px 65px;
+    overflow: hidden;
+}
+.request-section .request h2{
+    font-size: 42px;
+    color: #fff;
+    font-weight: 700;
+}
+.request-section .request p{
+    color: #fff;
+    max-width: 600px;
+    font-family: "Montserrat", Sans-serif;
+    line-height: 32px;
+    font-weight: 400;
+}
+.request-section .request button{
+ width: 220px;
+ padding: 10px;
+    background-color: #1C232D;
+    text-transform: uppercase;
+    font-weight: 800;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+}
+
+@media(max-width:768px){
+    .request-section {
+        width: 100%;
+        margin-top: 40px;
+        
+    }
+    .request-section .request h2{
+        font-size: 25px;
+    }
+    .request-section .request p{
+        font-size: 15px;
+    }
+}

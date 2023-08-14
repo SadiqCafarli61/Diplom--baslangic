@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&display=swap');
+.input-section{
+    background-color: #fff;
+    height: 100vh;
+    overflow-x: hidden;
+    z-index: 999;
+width: 100%;
+   position: fixed;
+   display: none;
+   transition: 0.4s ease;
+}
+.active{
+    display: flex;
+}
+.input-section form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin:  0 auto; 
+}
+.input-section .forms .heading{
+    font-size: 32px;
+    color: #000;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+.input-section form .forms{
+    background-color: #eee;
+    border-radius: 5px;
+    height: 530px;
+    width: 770px;
+    padding: 20px;
+    position: relative;
+}
+.input-section form .forms label{
+    color: rgb(53, 145, 53);
+    font-size: 18px;
+    font-weight: 800;
+}
+.closeDemo{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    font-size: 38px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #11c0da;
+    cursor: pointer;
+    font-weight: 700;
+}
+.about-section{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../About//about.jpg) no-repeat;
+    height: 90vh;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    align-items: center;
+padding-left: 220px;
+padding-top: 50px;
+}
+.about-section .about-content h5{
+    color: #11c0da;
+    font-size: 22px;
+    font-weight: 600;
+}
+.about-section .about-content h2{
+    color: #fff;
+    font-size: 42px;
+    font-weight: 800;
+    max-width: 450px;
+    padding-bottom: 7px;
+}
+.about-section .about-content p{
+    font-size: 20px;
+    color: #fff;
+    max-width: 400px;
+    font-weight: 700;
+}
+.about-section .about-content  .btn-color{
+    width: 150px;
+    height: 45px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: #11c0da;
+    color: #fff;
+    font-weight: 600;
+    outline:  none;
+    transition:  0.4s ease;
+    margin-right: 20px; 
+}
+.about-brand-section{
+    padding-top: 50px;
+}
+.about-brand-section .left-side h2{
+    color: #000;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+.about-brand-section .left-side p{
+    color: #6d6d6d;
+    font-family: "Montserrat", Sans-serif;
+    max-width: 500px;
+    padding-bottom: 12px;
+}
+.about-brand-section .left-side .blue{
+    color: #11c0da;
+    font-weight: 700;
+}
+.object-section{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+}
+.object-section .right-side h2{
+    color: #000;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+.object-section .right-side p{
+    color: #6d6d6d;
+    font-family: "Montserrat", Sans-serif ;
+    font-weight: 500;
+    max-width: 500px;
+}
+.object-section .right-side .image{
+    width: 542px;
+}
+.object-section .left-side .image img{
+    width: 100%;
+}
+.team-section{
+    padding-top: 50px;
+}
+.team-section .left-side{
+    padding-top: 150px;
+}
+.team-section .left-side .organizations h2{
+    color: #000;
+    font-weight: 600;
+    max-width: 400px;
+    padding-bottom: 12px;
+}
+.team-section .left-side .organizations p{
+    color: #6d6d6d;
+    font-weight: 500;
+    max-width: 510px;
+    font-family: "Montserrat", Sans-serif;
+}
+.team-section .right-side .image img{
+    width: 100%;
+    height: auto;
+}
+@media(max-width:991px){
+    .team-section .left-side{
+        padding-top: 0;
+    }
+    .team-section .right-side{
+        padding-top: 150px;
+    }
+}
+
+@media(max-width:768px){
+    .about-section{
+        padding-left: 40px;
+    }
+    .about-section .about-content h5{
+        font-size: 16px;
+    }
+    .about-section .about-content h2{
+        font-size: 27px;
+    }
+    .about-section .about-content p{
+        font-size: 15px;
+    }
+    .object-section .right-side{
+        padding-left: 80px;
+        padding-top: 30px;
+    }
+    .team-section .right-side{
+        padding-top: 20px;
+    }
+    .input-section form .forms{
+        width: 320px;
+    }
+    .closeDemo{
+        right: 0%;
+    }
+}
+@media(max-width:576px){
+    .object-section .right-side {
+        padding-left: 20px;
+    }
+}

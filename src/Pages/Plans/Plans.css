@@ -1,0 +1,470 @@
+.monitoring-section {
+  display: flex;
+  padding-top: 50px;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+  background: url(./plan.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 20px;
+}
+
+.monitoring-section .monitoring {
+  text-align: center;
+}
+.monitoring-section .monitoring h5 {
+  color: #11c0da;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Montserrat", Sans-serif;
+}
+.monitoring-section .monitoring h2 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  font-family: "Montserrat", Sans-serif;
+}
+.monitoring-section .monitoring p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  max-width: 860px;
+}
+.monitoring-section .monitoring .btn-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.monitoring-section .monitoring button {
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+}
+.monitoring-section .monitoring .pricing {
+  width: 150px;
+  height: 45px;
+  border-radius: 4px;
+  border: 2px solid #11c0da;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 600;
+  outline: none;
+  transition: 0.4s ease;
+  margin-right: 20px;
+}
+
+.health-section .left-side h2 {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+}
+.health-section .left-side .word {
+  padding-top: 25px;
+}
+.health-section .left-side a {
+  color: #11c0da;
+  font-weight: 500;
+}
+.health-section .left-side span {
+  font-size: 16px;
+  color: #555;
+  padding-left: 5px;
+  font-family: "Montserrat", Sans-serif;
+}
+
+.health-section .right-side .image img {
+  width: 100%;
+}
+
+.sentiment-section {
+  padding-top: 110px;
+  background-color: #cbecee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sentiment-section .right-side h2 {
+  font-weight: 700;
+  font-size: 30px;
+  max-width: 560px;
+  padding-bottom: 15px;
+  font-family: "Montserrat", Sans-serif;
+}
+.sentiment-section .right-side p {
+  color: #555;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 17px;
+}
+
+.sentiment-section .left-side .image {
+  width: 450px;
+}
+.sentiment-section .left-side img {
+  width: 100%;
+}
+
+.analysis-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.analysis-section .left-side h2 {
+  font-weight: 700;
+  font-size: 30px;
+  max-width: 560px;
+  padding-bottom: 15px;
+  font-family: "Montserrat", Sans-serif;
+}
+.analysis-section .left-side p {
+  color: #555;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 17px;
+  max-width: 560px;
+}
+.analysis-section .right-side .image {
+  width: 450px;
+}
+.analysis-section .right-side .image img {
+  width: 100%;
+}
+
+.social-listening-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cbecee;
+}
+
+.social-listening-section .right-side h2 {
+  font-size: 30px;
+  color: #000;
+  font-weight: 700;
+  font-family: "Montserrat", Sans-serif;
+  padding-bottom: 15px;
+  max-width: 560px;
+}
+.social-listening-section .right-side p {
+  font-size: 17px;
+  color: #555;
+  font-family: "Montserrat", Sans-serif;
+  max-width: 560px;
+}
+.social-listening-section .left-side .image {
+  width: 450px;
+}
+.social-listening-section .left-side .image img {
+  width: 100%;
+}
+
+.panel-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel-section .left-side h2 {
+  font-size: 30px;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 700;
+  color: #000;
+  max-width: 560px;
+  padding-bottom: 15px;
+}
+.panel-section .left-side p {
+  font-size: 17px;
+  color: #555;
+  font-family: "Montserrat", Sans-serif;
+  max-width: 560px;
+}
+.panel-section .right-side .image {
+  width: 450px;
+}
+.panel-section .right-side img {
+  width: 100%;
+}
+
+.offer-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cbecee;
+  flex-direction: column;
+}
+.offer-section .offer {
+  padding: 2rem;
+}
+.offer-section .offer h2 {
+  font-size: 32px;
+  font-weight: 500;
+  font-family: "Montserrat", Sans-serif;
+}
+.offer-section .carts-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.offer-section .carts-images .carts {
+  display: flex;
+  margin-left: 20px;
+}
+.offer-section .carts-images .carts .image {
+  width: 185px;
+  overflow: hidden;
+  margin: 0 auto;
+  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.offer-section .carts-images .carts .card {
+  height: 200px;
+  width: 350px;
+  overflow: hidden;
+  border: none;
+}
+.offer-section .carts-images .carts h5 {
+  font-size: 20px;
+  padding-top: 5px;
+  font-family: "Montserrat", Sans-serif;
+  text-align: center;
+  font-weight: 600;
+}
+
+.features-section {
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.features-section .feature h2 {
+  color: #000;
+  font-weight: 600;
+  font-size: 32px;
+  font-family: "Montserrat", Sans-serif;
+}
+
+.tables-section {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tables-section table, .tables-section th, .tables-section td {
+  border: 1px solid #eee;
+}
+.tables-section th {
+  background-color: #26bec7;
+  color: #fff;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.tables-section td {
+  background-color: #dadada;
+  padding: 10px;
+}
+.tables-section .check {
+  background-color: #11c0da;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  margin: 0 auto;
+}
+.tables-section .white {
+  background-color: #fff;
+}
+.tables-section .bagla {
+  background-color: #ff0000;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  margin: 0 auto;
+}
+.tables-section table {
+  width: 1200px;
+  border-bottom: 10px solid #26bec7;
+}
+
+.trend-section {
+  margin-top: 80px;
+  padding-top: 70px;
+  background-color: #D7F3F4;
+  padding-bottom: 70px;
+}
+.trend-section .trend {
+  text-align: center;
+}
+.trend-section .trend h2 {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+}
+.trend-section .trend .image {
+  width: 335px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.trend-section .trend .image img {
+  width: 100%;
+}
+.trend-section .trend .buttons-section {
+  margin-top: 60px;
+}
+.trend-section .trend .buttons-section .btn-color {
+  background-color: #26BEC7;
+  width: 200px;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: "Montserrat", Sans-serif;
+  transition: all 0.4s ease;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.trend-section .trend .buttons-section .btn-color:hover {
+  background-color: #000;
+  color: #fff;
+}
+.trend-section .trend .buttons-section .bordering {
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #222;
+  font-family: "Montserrat", Sans-serif;
+  border: 3px solid #26BEC7;
+  border-radius: 5px;
+}
+
+@media (max-width: 1200px) {
+  .sentiment-section .left-side .image {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  .health-section .right-side {
+    padding-top: 200px;
+  }
+  .offer-section .carts-images {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .offer-section .carts-images .carts .image {
+    width: 150px;
+  }
+  .offer-section .carts-images .carts h5 {
+    font-size: 17px;
+  }
+}
+@media (max-width: 768px) {
+  .monitoring-section {
+    padding-top: 130px;
+  }
+  .monitoring-section .monitoring h2 {
+    font-size: 28px;
+  }
+  .monitoring-section .monitoring p {
+    font-size: 17px;
+  }
+  .health-section .right-side {
+    padding-top: 0;
+  }
+  .sentiment-section .right-side h2 {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 10px;
+  }
+  .analysis-section .left-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .analysis-section h2 {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 10px;
+  }
+  .analysis-section .right-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .analysis-section .image {
+    width: 300px;
+  }
+  .analysis-section .image img {
+    width: 100%;
+  }
+  .analysis-section .right-side .image {
+    width: 330px;
+  }
+  .analysis-section .right-side .image img {
+    width: 100%;
+  }
+  .social-listening-section .right-side h2 {
+    padding-left: 10px;
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .social-listening-section .left-side {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+  .social-listening-section .left-side .image {
+    width: 450px;
+  }
+  .social-listening-section .left-side img {
+    width: 100%;
+  }
+  .right-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 15px;
+  }
+  .panel-section .left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .panel-section .left-side h2 {
+    padding-left: 10px;
+  }
+  .offer-section .offer h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .offer-section .carts-images .carts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .offer-section .carts-images .carts .card {
+    height: 160px;
+    width: 250px;
+    margin-top: 20px;
+  }
+  .trend-section .trend h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 459px) {
+  .trend-section .trend .buttons-section .bordering {
+    margin-top: 20px;
+  }
+}/*# sourceMappingURL=Plans.css.map */

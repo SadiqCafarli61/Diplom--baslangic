@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&display=swap');
+
+
+.contact-home{
+background: url(./contact.jpg) no-repeat;
+height: 90vh;
+background-size: cover;
+align-items: center;
+display: flex;
+padding-left: 220px;
+background-position: center;
+}
+.contact-home .business-section h5{
+    color: #11c0da;
+    font-weight: 600;
+    font-size: 22px;
+}
+.contact-home .business-section h2{
+    color: #fff;
+    max-width: 450px;
+    font-weight: 800;
+    padding-bottom: 7px;
+    font-size: 42px;
+    font-family: "Montserrat", Sans-serif;
+}
+.contact-section{
+    padding-top: 60px;
+}
+.contact-section .left-side h5{
+    color: #000;
+    font-weight: 700;
+    font-size: 28px;
+    padding-bottom: 15px;
+    
+}
+.contact-section .left-side p{
+    color: #555;
+    font-size: 17px;
+    max-width: 440px;
+    font-weight: 400;
+}
+.contact-section .left-side .address-section .info .icon{
+    font-size: 38px;
+    color: #11c0da;
+}
+.contact-section .left-side .address-section .info span{
+    padding-left: 10px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.contact-section .right-side .email-section form .emails{
+    margin-top: 40px;
+} 
+.contact-section .right-side{
+   border: 2px solid #eee;
+   border-radius: 5px;
+}
+
+
+@media(max-width:768px){
+    .contact-section .left-side{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin: 0 auto;
+    }
+    .contact-section .left-side .address-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .contact-home{
+        padding-left: 30px;
+    }
+    
+    .contact-home .business-section h2{
+        font-size: 25px;
+    }
+    .contact-section .right-side{
+        margin-top: 40px;
+    }
+}
